@@ -1,0 +1,150 @@
+.all-screen{
+	width:100%;
+	height: 100vh;
+	overflow:scroll;
+}
+#space{
+	position:relative;
+	padding-top:100px;
+	width:max-content;
+	margin:0px;
+	
+}
+.start_block{
+	position:absolute;
+	top:0px;
+	left:25px;
+	background-color:orange;
+	width:100px;
+	height:100px;
+	
+}
+#start_button{
+	
+	
+}
+.root{
+	display:inline-block;
+	width:fit-content;
+	padding: 30px 0px;
+    border-radius: 35px;
+	background-color:orange;
+	border:1px solid black;
+	margin-left: -5px;
+    margin-top: -5px;
+	
+	position:relative;
+	vertical-align:top;
+}
+.root_div{
+	display:inline-block;
+	width:fit-content;
+	padding: 30px 30px;
+    border-radius: 35px;
+	border:5px solid orange;
+	margin-left: -30px;
+    margin-top: 75px;
+	position:relative;
+	vertical-align: top;
+	
+}
+.root a{
+	
+	
+	padding:5px 10px;
+	
+	color:white;
+	
+	border-radius:0.25rem;
+	text-decoration:none;
+	text-align:center;
+	
+}
+.root a:hover{
+	color:white;
+	text-decoration:none;
+	
+}
+
+
+.del-button{
+	
+	border-radius:30px;
+}
+.add-button{
+	
+	border-radius:30px;
+}
+.rename-button{
+	position:absolute;
+	border-radius:0px 0px 30xp 30px;
+	top:0px;
+	left:30px;
+	font-size:10px !important;
+}
+.hide-button{
+	position:absolute;
+	border-radius:30px 30px 0xp 0px;
+	bottom:0px;
+	font-size:10px !important;
+	right:30px;
+}
+
+.delCon{
+	width:100%;
+	position:fixed;
+	top:0px;
+}
+.workSpace{
+	min-width:200px;
+	width:fit-content;
+	background-color:orange;
+	position:relative;
+	margin:0px auto;
+	padding:10px 20px;
+	border: 1px solid black;
+	
+}
+.titlePopup{
+	color:black;
+	text-align:center;
+	font-size:25px;
+	border: 1px solid black;
+	border-width:0px 0px 1px 0px;
+	padding:0px 5px;
+}
+.textPopup{
+	color:black;
+	text-align:left;
+	font-size:15px;
+	border: 1px solid black;
+	border-width:0px 0px 1px 0px;
+	padding:20px 10px;
+}
+.buttonsPopup{
+	text-align:right;
+	padding:0px 15px;
+}
+.exitPopup{
+	position:absolute;
+	top:0px;
+	right:0px;
+	padding:0px 15px;
+	color:red;
+	font-size:25px;
+}
+.exitPopup button{
+line-height: 30px;
+    font-size: 40px;
+    padding: 0px 16px;
+    padding-top: 16px;
+    padding-bottom: 0px;
+}
+.timerPopup{
+	position:absolute;
+	bottom:0px;
+	font-size:25px;
+	left:0px;
+	padding:0px 15px;
+	color:red;
+}
